@@ -1,0 +1,63 @@
+body{
+	background-color: rgb(219,255,255);
+	font-family: arial;
+	
+}
+#add{
+	background-color: blue;
+	border-style: hidden;
+	padding: 10px;
+	margin: 10px;
+	border-radius: 7px;
+	color: white;
+}
+
+#clear{
+	background-color: red;
+	border-style: hidden;
+	padding: 10px;
+	margin: 10px;
+	border-radius: 7px;
+	color: white;
+}
+
+#add:hover{
+	background-color: white;
+	color:blue;
+	transition: 1s;
+}
+#clear:hover{
+	background-color: white;
+	color:red;
+	transition: 1s;
+}
+
+#list{
+	background-color: rgb(137,255,255);
+	border-radius: 10px;
+	padding: 5px;
+	margin: 5px;
+}
+
+#list:hover{
+	background-color: white;
+	transition: 1s;
+}
+
+#type{
+	padding: 10px;
+	border-radius: 20px;
+	width: 50%;
+}
+
+#left{
+	color: blue;
+}
+#title{
+	text-align: center;
+}
+
+#cpanel{
+	text-align: center;
+	margin-top: 20px;
+}
